@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+body {
+    background-color: #d2d1d4;
+    color: #29282f;
+}
+
+/* Page Header */
+nav {
+    height: 64px;
+    background-color: #f1f1f1;
+    display: flex;
+    padding-left: 30px;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+}
+
+/* Page Footer */
+.footer {
+    background: #29282f;;
+    color: #f1f1f1;
+    height: 50px;
+    width: 100%;
+    bottom: 0px;
+    padding-top: 15px;
+    text-align: center; 
+}
+
+.inner {
+    border-radius: 2%;
+    background: #f1f1f1;
+    padding: 20px;
+    width: 60%;
+    margin: 10px auto;
+}
+
+/* Article Styling */
+.article-header {
+    text-align: right;
+}
+
+.article-title {
+    padding-bottom: 5px;
+    text-decoration-line: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 10px;
+}
+
+.article-metadata {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.article-metadata div {
+    margin-left: 5px;
+}
+
+.author {
+    color: green;
+    font-weight: 600;
+}
+
+.last-updated {
+    font-size: 12px;
+}
+
+/* Social Links */
+.social-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+.social-links div {
+    width: 24px;
+    height: 24px;
+    margin-left: 3px;
+    border-radius: 50%;
+    background: #29282f;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-links div i {
+    color: #f1f1f1;
+}
+
+/* Article Body */
+.article-body {
+    padding: 20px;
+}
+
+.article-body .para {
+    margin-bottom: 20px;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .inner {
+        width: 98%;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+    .inner {
+        width: 90%;
+    }
+}
