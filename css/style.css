@@ -10,6 +10,10 @@
 body {
     background-color: #d2d1d4;
     color: #29282f;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 /* Page Header */
@@ -51,12 +55,11 @@ nav {
 
 /* Page Footer */
 .footer {
-    position: absolute;
+    margin-top: auto;
     background: #29282f;;
     color: #f1f1f1;
     height: 50px;
     width: 100%;
-    bottom: 0;
     padding-top: 15px;
     text-align: center; 
     font-size: 14px;
