@@ -25,8 +25,8 @@
         <label for="email">Email</label>
         <input type="email" name="email" id="email" placeholder="imubashir@example.com">
 
-        <label for="">Your Message</label>
-        <textarea name="message" id="" cols="30" rows="10">Need to talk? We're listening…</textarea>
+        <label for="msg">Your Message</label>
+        <textarea name="message" id="msg" rows="10" placeholder="Need to talk? We're listening…"></textarea>
 
         <button type="submit">Send <i class="fa fa-paper-plane fa-xs" style="transform: translateY(-1px);"></i></button> 
     </form>
