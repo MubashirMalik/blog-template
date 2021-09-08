@@ -11,5 +11,5 @@
             <li class="nav-item secondary"><a href="">Write</a></li>
             <li class="nav-item secondary"><a href="login.php">Sign In</a></li>
             <li class="nav-item secondary"><a href="contact-us.php">Contact Us</a></li>
-        </div>
+        </ul>
     </nav>
