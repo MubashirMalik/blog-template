@@ -18,27 +18,48 @@ nav {
     background-color: #f1f1f1;
     display: flex;
     padding-left: 30px;
+    padding-right: 30px;
     align-items: center;
+    justify-content: space-between;
     box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
 }
 
-/* Page Footer */
-.footer {
-    background: #29282f;;
-    color: #f1f1f1;
-    height: 50px;
-    width: 100%;
-    bottom: 0px;
-    padding-top: 15px;
-    text-align: center; 
+.nav-items {
+    display: flex;
+    flex-direction: row;
 }
 
+.nav-items li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+.nav-items li a {
+    color: #29282f;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+/* Main Container */
 .inner {
     border-radius: 2%;
     background: #f1f1f1;
     padding: 20px;
     width: 60%;
     margin: 10px auto;
+}
+
+/* Page Footer */
+.footer {
+    position: absolute;
+    background: #29282f;;
+    color: #f1f1f1;
+    height: 50px;
+    width: 100%;
+    bottom: 0;
+    padding-top: 15px;
+    text-align: center; 
+    font-size: 14px;
 }
 
 /* Article Styling */
@@ -108,16 +129,74 @@ nav {
     margin-bottom: 20px;
 }
 
+/* FORM Styling */
+
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: #f1f1f1;
+    margin: 10px auto;
+    width: 40%;
+    padding: 30px;
+}
+
+form h2 {
+    padding-bottom: 5px;
+    text-decoration-line: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 10px;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input,textarea {
+    line-height: 20px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+}
+
+input:focus, textarea:focus{
+    outline: none;
+}
+
+button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 12px;
+}
+
+.form-bottom {
+    text-align: center;
+}
+
+.form-bottom a {
+    color: #29282f;
+    font-weight: 800;
+    text-decoration: none;
+}
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .inner {
         width: 98%;
     }
+
+    form {
+        width: 95%;
+    }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 900px) {
     .inner {
+        width: 90%;
+    }
+
+    form {
         width: 90%;
     }
 }

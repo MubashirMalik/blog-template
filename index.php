@@ -13,14 +13,11 @@
 </head>
 <body>
     <!-- Page Header -->
-    <nav>
-        <h1>XYZ Blog</h1>
-    </nav>
+    <?php require $_SERVER["DOCUMENT_ROOT"].'/blog-template/assets/header.php';?>
     <!-- Page Body -->
     <div class="inner">
         <div class="article-header">
             <h2 class="article-title">Lorem Ipsum - All the facts, Origin and Meaning</h2>
-            <div class="underline"></div>
 
             <div class="article-metadata">
                 <img src="https://media-exp1.licdn.com/dms/image/C5103AQErpAxiFDAPcQ/profile-displayphoto-shrink_800_800/0/1544870677048?e=1636588800&v=beta&t=wLBh-hsSdGwCObUH6P_ACf0yY3zdzZPl-7xNWqnu-KI" alt="" style="border-radius: 50%;" width="20px" height="20px">  
