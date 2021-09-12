@@ -224,6 +224,7 @@ button {
     margin-left: 10px;
     width: 200px;
     height: 200px;
+    object-fit: cover;
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -271,7 +272,6 @@ button {
         padding-bottom: 10px;
         display: flex;
         width: 100%;
-        object-fit: cover;
     }
 }
 

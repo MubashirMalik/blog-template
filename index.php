@@ -18,8 +18,8 @@
         <div class="article-card">
             <div class="sd1">
                 <div class="sd2">
-                    <h2>Staveley teenager 'died trying to save friend in canal'</h2>
-                    <p>loVe stands for Global Vectors where global refers to global statistics of corpus and vectors are representations for words. Earlier word embeddings methods such as LSA, word2vec were able to learn syntactic and semantic relationship...</p>
+                    <h2>How To Create a Cryptocurrency Wallet?</h2>
+                    <p>A Cryptocurrency wallet is a safe avenue where users can store their digital assets and funds. It can be used to send and receive money easily and help to possess full control over crypto holdings. A Cryptocurrency wallet app can be...</p>
             
                     <div class="article-metadata">
                         <img src="https://media-exp1.licdn.com/dms/image/C5103AQErpAxiFDAPcQ/profile-displayphoto-shrink_800_800/0/1544870677048?e=1636588800&v=beta&t=wLBh-hsSdGwCObUH6P_ACf0yY3zdzZPl-7xNWqnu-KI" alt="" style="border-radius: 50%;" width="20px" height="20px">  
@@ -28,7 +28,7 @@
                         <div class="last-updated"><?php echo date("M j, Y"); ?></div>
                     </div>  
                 </div>
-                <img src="https://pbs.twimg.com/profile_images/1282075483782471687/898ZKVj5.jpg" alt="" class="article-img">
+                <img src="https://d1mjtvp3d1g20r.cloudfront.net/2018/12/28143620/Cardano-e1574086930308.jpeg" alt="" class="article-img">
             </div>        
         </div>
 

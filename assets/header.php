@@ -5,7 +5,7 @@
     <script src="main.js"></script>
     <nav>
         <ul class="nav-list">
-            <li class="nav-item primary"><a href=""><h2>XYZ Blog</h2></a></li>
+            <li class="nav-item primary"><a href=""><h2>Blog Logo</h2></a></li>
             <li class="nav-item toggle"><a href="#" onclick="toggleNavBar()"><i class="fa fa-bars" style="transform: translateY(2px);"></i></a></li>
             <li class="nav-item secondary"><a href="">Our Story</a></li>
             <li class="nav-item secondary"><a href="">Write</a></li>
