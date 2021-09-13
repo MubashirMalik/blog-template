@@ -147,6 +147,21 @@ nav {
     margin-bottom: 20px;
 }
 
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+}
+.tags li{
+    margin-right: 5px;
+    margin-top: 10px;
+    list-style: none;
+    background: #d2d1d4;
+    padding: 5px;
+    color: #29282f;
+    font-size: 12px;
+    font-weight: 600;
+}
+
 /* FORM Styling */
 
 form{
