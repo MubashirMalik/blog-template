@@ -48,7 +48,23 @@
                 The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
                 </p>
             </div>
+            <hr style="margin-bottom: 10px;">
+            <div class="para">
+                <h3>Comments (2)</h3>
+                <p>
+                <div class="author">Mubashir</div>
+                <div class="comment">- It is a great article useful for us</div>
+
+                <div class="author">Usama</div>
+                <div class="comment">- Excellent Infomation, I am actually struggling with traffic on my site and It will help me a lot, if I get succeded in creating my site’s page.</div>
+                </p>
+            </div>
         </div>
+        <form action="" class="comment-form">
+            <h3>Speak Your Mind</h3>
+            <textarea name="" id="" cols="20" rows="5" placeholder="Write Comment"></textarea>
+            <button>Post Comment</button>
+        </form>
     </div>
     <!-- Page Footer -->
     <div class="footer">
