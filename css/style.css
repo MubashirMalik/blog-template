@@ -108,10 +108,6 @@ nav {
     font-weight: 600;
 }
 
-.comment {
-    margin: 5px;
-}
-
 .last-updated {
     font-size: 12px;
 }
@@ -144,6 +140,7 @@ nav {
 /* Article Body */
 .article-body {
     padding: 20px;
+    padding-bottom: 0;
 }
 
 .article-body .para {

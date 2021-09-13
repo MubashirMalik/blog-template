@@ -51,12 +51,24 @@
             <hr style="margin-bottom: 10px;">
             <div class="para">
                 <h3>Comments (2)</h3>
+                <hr style="margin-top: 10px; margin-bottom: 10px;">
                 <p>
-                <div class="author">Mubashir</div>
-                <div class="comment">- It is a great article useful for us</div>
-
-                <div class="author">Usama</div>
-                <div class="comment">- Excellent Infomation, I am actually struggling with traffic on my site and It will help me a lot, if I get succeded in creating my site’s page.</div>
+                    <h3>Mubashir</h3>
+                    It is a great article useful for us
+                    <div class="social-links">
+                        <div><i class="far fa-thumbs-up fa-xs"></i></i></div>
+                        <div><i class="far fa-thumbs-down fa-xs"></i></i></div>
+                        <div><i class="far fa-flag fa-xs"></i></div>
+                    </div>
+                </p>
+                <p>
+                    <h3>Haris</h3>
+                    What are your thoughts on Squarespace?
+                    <div class="social-links">
+                        <div><i class="far fa-thumbs-up fa-xs"></i></i></div>
+                        <div><i class="far fa-thumbs-down fa-xs"></i></i></div>
+                        <div><i class="far fa-flag fa-xs"></i></div>
+                    </div>
                 </p>
             </div>
         </div>
