@@ -18,6 +18,10 @@
 
         <h2>Registration Form</h2>
 
+        <div class="message">
+            Passwords must be at least 8 characters long!
+        </div>
+
         <label for="username">Username</label>
         <input type="text" name="username" id="username" placeholder="mubashir">
 

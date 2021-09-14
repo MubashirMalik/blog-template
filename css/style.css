@@ -164,6 +164,15 @@ nav {
 
 /* FORM Styling */
 
+form .message {
+    display: flex;
+    color: rgb(207,16,49);
+    font-weight: 600;
+    justify-content: center;
+    margin-top: 10px;
+}
+/* ^Form Error Message Handling ^ */
+
 form{
     display: flex;
     flex-direction: column;
