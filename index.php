@@ -67,8 +67,6 @@
     </div>
         
     <!-- Page Footer -->
-    <div class="footer">
-        &copy; 2021 netarchives.org | All Rights Reserved.
-    </div>
+    <?php require $_SERVER["DOCUMENT_ROOT"].'/blog-template/assets/footer.php';?>
 </body>
 </html>

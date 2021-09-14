@@ -2,7 +2,7 @@
     <!-- Font Awesome CDN-->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     
-    <script src="main.js"></script>
+    <script src="/blog-template/main.js"></script>
     <nav>
         <ul class="nav-list">
             <li class="nav-item primary"><a href=""><h2>Blog Logo</h2></a></li>
